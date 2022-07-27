@@ -3,6 +3,8 @@ body {
     margin: 0;
 }
 
+/* navigation bar */
+
 header, 
 .section-one {
     background-color: #1F2937;
@@ -19,13 +21,6 @@ header {
     padding: 5px 50px;
 }
 
-.section-one {
-    justify-items: center;
-    align-items: center;
-    padding: 100px 200px;
-    flex: 1;
-}
-
 ul {
     display: flex;
     list-style: none;
@@ -34,6 +29,15 @@ ul {
 
 li {
     margin: 0 20px;
+}
+
+/* Hero Section */
+
+.section-one {
+    justify-items: center;
+    align-items: center;
+    padding: 100px 200px;
+    flex: 1;
 }
 
 h1 {
@@ -60,6 +64,8 @@ img {
 p {
     font-size: 16px;
 }
+
+/* cards of information */
 
 .section-two {
     background-color: #F9F1F8;
@@ -96,6 +102,8 @@ h2 {
     text-align: center;
 }
 
+/* quote section */
+
 .section-three {
     background-color: #E5E7EB;
     text-align: center;
@@ -112,6 +120,8 @@ figcaption {
     font-weight: 900;
     text-align: right;
 }
+
+/* Sign up section */
 
 .section-four {
     background-color: #F9F1F8;
@@ -133,6 +143,8 @@ figcaption {
     border: 1px solid #F9F1F8;
     border-radius: 5px;
 }
+
+/* footer */
 
 footer {
     background-color: #1F2937;
