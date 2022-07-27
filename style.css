@@ -72,7 +72,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 50px 200px;
+    padding: 50px;
 }
 
 h2 {
@@ -84,8 +84,8 @@ h2 {
 
 .info {
     display: flex;
-    padding: 0 100px;
     gap: 30px;
+    flex-wrap: wrap;
 }
 
 .placeholder-img {
@@ -98,6 +98,7 @@ h2 {
 .card {
     display: flex;
     flex-direction: column;
+    width: 150px;
     align-items: center;
     text-align: center;
 }
@@ -107,7 +108,7 @@ h2 {
 .section-three {
     background-color: #E5E7EB;
     text-align: center;
-    padding: 50px 200px;
+    padding: 50px;
 }
 
 blockquote {
